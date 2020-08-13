@@ -17,6 +17,9 @@ df.set_index("DateTime", inplace=True)
 print(df.info(), "\n")
 print(df, "\n")
 
+df.sort_index(inplace=True)
+print(df, "\n")
+
 """
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 3 entries, 0 to 2
@@ -64,5 +67,11 @@ None
 DateTime                      
 2020-08-13 23:59:22.930   OPEN  <--- but, not sorted?
 2020-08-13 23:59:22.920  CLOSE
+2020-08-13 23:59:22.990   OPEN 
+
+                         State
+DateTime                      
+2020-08-13 23:59:22.920  CLOSE
+2020-08-13 23:59:22.930   OPEN  <--- sorted!
 2020-08-13 23:59:22.990   OPEN 
 """
