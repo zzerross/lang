@@ -1,0 +1,5 @@
+0x7fffc4ed0ec0: main()::Struct::Struct()
+uniquue=1 count=1
+uniquue=0 count=2
+uniquue=1 count=1
+0x7fffc4ed0ec0: main()::Struct::~Struct()

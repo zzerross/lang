@@ -1,0 +1,6 @@
+0x7fffe9ed4eb0: main()::Struct::Struct()
+up=0x7fffe9ed4eb0
+0x7fffe9ed4eb0: void main()::Struct::dump()
+up=0
+0x7fffe9ed4eb0: main()::Struct::~Struct()
+0x7ffff0fbfd07: main()::Struct::~Struct()

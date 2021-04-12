@@ -1,0 +1,4 @@
+0x7fffe9290eb0: main()::Struct::Struct()
+0x7ffff0a8a13f: main()::Struct::Struct(const main()::Struct&)
+0x7ffff0a8a13f: main()::Struct::~Struct()
+0x7fffe9290eb0: main()::Struct::~Struct()
