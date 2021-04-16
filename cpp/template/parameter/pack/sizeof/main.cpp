@@ -9,6 +9,8 @@ template<typename ...Ts> void func(Ts... args) {
 auto main() -> int {
     func(1, 2, 3, 4, 5);
     func("1", "2", "3");
+    func(1, "2");
+    func();
 
     return 0;
 }
