@@ -7,14 +7,15 @@ double twice(double x) {
     return x * 2;
 }
 
-auto compose(function<double(double)> f, function<double(double)> g) {
-    return [f, g](double x) {
+template <typename R, typename P>
+auto compose(function<R(P)> f, function<R(P)> g) {
+    return [f, g](P x) {
         return f(g(x));
     };
 }
 
 auto main() -> int {
-    auto func = compose(twice, twice);
+    auto func = compose<double, double>(twice, twice);
 
     cout << func(2) << endl;
 
