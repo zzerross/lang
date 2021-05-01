@@ -1,1 +1,18 @@
-I * I = -1.000000+0.000000i
+ Imaginary Unit Square  
+ i ^ 2 = -1             
+          ^             
+          |             
+          + 2i          
+          |             
+          + i           
+          |             
+ <--+--+--+--+--+-->    
+   -2 -1  |  1  2       
+          + -i          
+          |             
+          + -2i         
+          |             
+1 rotates  90 degrees:
+1 * I     = +0.0 +1.0i
+1 rotates 180 degrees:
+1 * I * I = -1.0 +0.0i
