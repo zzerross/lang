@@ -24,4 +24,9 @@ $ ./a.out
 2
 <ctrl+d> 
 3
+
+$ cat input.txt
+1 2 3 4 5 6 7 8 9 10
+$ ./a.out < input.txt
+55
 #endif
