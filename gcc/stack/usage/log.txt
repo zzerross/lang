@@ -1,0 +1,14 @@
+gcc -fstack-usage main.c -c -g -o main.o
+gcc main.o
+./avstack.pl main.o
+  Func                               Cost    Frame   Height
+------------------------------------------------------------------------
+> func1                                52       52        1
+> main                                 20       20        1
+> func2                                20       20        1
+> INTERRUPT                             0        0        1
+
+Peak execution estimate (main + worst-case IV):
+  main = 20, worst IV = 0, total = 20
+
+The following functions were not resolved:

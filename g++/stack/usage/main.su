@@ -1,3 +1,0 @@
-main.cpp:1:5:int func2()	16	static
-main.cpp:5:5:int func1()	48	static
-main.cpp:11:5:int main()	16	static

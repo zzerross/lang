@@ -1,4 +1,5 @@
 int func2() {
+    int a;
     return 0;
 }
 
